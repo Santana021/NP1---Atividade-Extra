@@ -20,8 +20,12 @@ O desenvolvimento seguiu os requisitos obrigatórios da avaliação:
 * **logo.png:** Identidade visual utilizada no projeto.
 
 ## Equipe
-Gabriel Sant' Ana - H771340 - DS2P17
-João Daniel Galvão Campos - H74DF18 - DS3R17
-﻿﻿Gabriel Rodrigues Martins - H718BA5 - DS3R17
-﻿﻿Sérgio Fugulin Filho - H714869 - DS2P17
-Vinicius de Pádua frati Bertoni - H75CEG3 - DS3Q17
+* **Gabriel Sant' Ana** - H771340 - DS2P17
+* **João Daniel Galvão Campos** - H74DF18 - DS3R17
+﻿﻿* **Gabriel Rodrigues Martins** - H718BA5 - DS3R17
+﻿﻿* **Sérgio Fugulin Filho - H714869** - DS2P17
+* **Vinicius de Pádua frati Bertoni** - H75CEG3 - DS3Q17
+
+## Site Publicado 
+
+* **Link:** https://santana021.github.io/NP1---Atividade-Extra/
