@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossos Produtos - NP1</title>
+  
+  <!-- CSS EXTERNO - o mesmo style.css para aproveitar as regras globais e botar a cor padrão do site -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER (Reutilizado) ================= -->
+  <!-- Mantendo a identidade visual pra não perder ponto de padronização -->
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo do projeto" class="logo">
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <!-- Deixei a classe menu-ativo aqui pra mostrar em qual página o user tá -->
+        <li><a href="produtos.html" class="menu-ativo">Produtos</a></li>
+        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= CONTEÚDO DA PÁGINA ================= -->
+  <main class="page-produtos">
+    <h1>Catálogo de Produtos</h1>
+    <p>Abaixo, segue uma lista ficticia de produtos, pois não temos banco de dados.</p>
+
+    <!-- TABELA OBRIGATÓRIA DA AVALIAÇÃO -->
+    <!-- Coloquei um container na tabela pro scroll horizontal funcionar no mobile -->
+    <div class="tabela-container">
+      <table class="tabela-estilosa">
+        <thead>
+          <tr>
+            <th>Nome do Produto</th>
+            <th>Categoria</th>
+            <th>Preço (R$)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>santos campeão da sul americana</td>
+            <td>Sonho</td>
+            <td>R$ 4.500,00</td>
+          </tr>
+          <tr>
+            <td>Nota extra para a prova de Banco de dados</td>
+            <td>Nota</td>
+            <td>R$ 899,90</td>
+          </tr>
+          
+          <tr>
+            <td>Fuleco da copa de 2014</td>
+            <td>Boneco</td>
+            <td>R$ 150,00</td>
+          </tr>
+          <tr>
+            <td>Par de Joelho pro menino Ney </td>
+            <td>10 da seleção</td>
+            <td>R$ 320,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- LINK INTERNO DISFARÇADO DE BOTÃO DE AÇÃO -->
+    <!-- Coloquei uma div em volta pra centralizar o link -->
+    <div class="acoes-pagina">
+      <a href="index.html" class="botao-destaque">⬅ Voltar pra página inicial</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Feito dedicação para a matéria de Desenvolvimento Web.</p>
+  </footer>
+
+</body>
+</html>

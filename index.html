@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site - Projeto NP1</title>
+
+  <!-- CSS EXTERNO - Linkando a folha de estilo conforme o requisito -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <!-- Aqui usei flexbox pra organizar o topo. -->
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo do site" class="logo">
+    </div>
+
+    <!-- MENU COM LISTA -> Usando a tag <nav> -->
+    <nav>
+      <ul>
+        <li><a href="index.html" class="menu-ativo">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <!-- target="_blank" pra n sair do site na hora em que formos apresentar -->
+        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+  <main>
+    <section class="banner-principal">
+      <h1>Bem-vindo!</h1>
+      <p>Projeto para nota complementar de Desenvolvimento Web.</p>
+    </section>
+
+    <section class="info-aluno">
+      <h2>Sobre o trabalho</h2>
+      <p>Esse site foi todo desenvolvido aplicando os conceitos de marcação semântica e estilização (CSS3) com conceito Mobile First pedido em sala.</p>
+      
+      <!-- Lista extra -->
+      <h3>Principais aprendizados:</h3>
+      <ul>
+        <li>Uso correto de tags semânticas (header, main, footer, section)</li>
+        <li>Estilização usando variáveis no :root no CSS</li>
+        <li>Responsividade com media queries</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé básico -->
+  <footer>
+    <p>&copy; 2026 - Feito dedicação para a matéria de Desenvolvimento Web.</p>
+  </footer>
+
+</body>
+</html>
